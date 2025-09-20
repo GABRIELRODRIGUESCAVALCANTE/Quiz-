@@ -1,0 +1,119 @@
+/* Estilos Gerais */
+/* Aplica uma fonte global, remove margens padrão e define a cor de fundo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o cabeçalho e o rodapé */
+header, footer {
+    background-color: #005f73;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Estilo para cada seção de pergunta */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Estilo para os títulos das seções */
+h2 {
+    color: #005f73;
+    border-bottom: 2px solid #005f73;
+    padding-bottom: 10px;
+}
+
+/* Estilo para todos os formulários */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para os inputs de texto, data, senha e file */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #0a9396;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #005f73;
+}
+
+/* Estilo para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Combina as bordas das células */
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Estilo para a tag details e summary */
+details {
+    background-color: #e9e9e9;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+summary {
+    font-weight: bold;
+    color: #005f73;
+}
